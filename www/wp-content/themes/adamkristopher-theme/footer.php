@@ -11,7 +11,7 @@
 
 			<div class="copyright-section grid-container">
 				<div class="copyright grid-100">
-					<h5>&copy;<?php echo date('Y'); ?> Adam Carter | Design by <a href="https://lauren-black.com" target="_blank">Lauren Black</a></h5>
+					<h5>&copy;<?php echo date('Y'); ?> Adam Carter | Design by <a href="http://lauren-black.com" target="_blank">Lauren Black</a></h5>
 				</div>
 			</div>
 
