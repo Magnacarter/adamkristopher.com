@@ -12,7 +12,7 @@ require_once STYLESHEETPATH . '/includes/acf.php';
  *
  * @return void
  */
-function jsix_enqueue_scripts() {
+function akc_enqueue_scripts() {
 	// Theme CSS
 	wp_enqueue_style( 'grid', get_stylesheet_directory_uri() . '/css/grid.css' );
 	wp_enqueue_style( 'jsix-main', get_stylesheet_directory_uri() . '/style.css' );
@@ -27,7 +27,7 @@ function jsix_enqueue_scripts() {
 	wp_enqueue_script( 'flexslider' , get_template_directory_uri() . '/js/jquery.easing.js', array('jquery'), '' , true);
 	wp_enqueue_script( 'jsix-theme-js', get_stylesheet_directory_uri() . '/js/theme.js', array( 'jquery' ), false, true );
 }
-add_action( 'wp_enqueue_scripts', 'jsix_enqueue_scripts' );
+add_action( 'wp_enqueue_scripts', 'akc_enqueue_scripts' );
 
 /**
  * Add an acf options page
@@ -48,7 +48,7 @@ add_theme_support( 'post-thumbnails' );
  *
  * @return void
  */
-function jsix_after_setup_theme() {
+function akc_after_setup_theme() {
 	// Custom menus
 	add_theme_support( 'menus' );
 
@@ -65,7 +65,7 @@ function jsix_after_setup_theme() {
 		)
 	);
 }
-add_action( 'after_setup_theme', 'jsix_after_setup_theme' );
+add_action( 'after_setup_theme', 'akc_after_setup_theme' );
 
 
 

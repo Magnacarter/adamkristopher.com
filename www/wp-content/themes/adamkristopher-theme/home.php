@@ -1,6 +1,6 @@
 <?php
 /*
- * Index
+ * Blog Page
  */
 get_header() ?>
 
