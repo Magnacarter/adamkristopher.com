@@ -1,22 +1,22 @@
 <?php
 /**
- * Custom Post Type: Services
+ * Custom Post Type: Portfolio
  */
-function jsix_services() {
+function akc_portfolio() {
 	$labels = array(
-		'name'               => 'Services',
-		'singular_name'      => 'Services',
+		'name'               => 'Portfolio',
+		'singular_name'      => 'Portfolio',
 		'add_new'            => 'Add New',
-		'add_new_item'       => 'Add New Services',
-		'edit_item'          => 'Edit Services',
-		'new_item'           => 'New Services',
-		'all_items'          => 'All Services',
-		'view_item'          => 'View Services',
-		'search_items'       => 'Search Services',
+		'add_new_item'       => 'Add New Portfolio',
+		'edit_item'          => 'Edit Portfolio',
+		'new_item'           => 'New Portfolio',
+		'all_items'          => 'All Portfolio',
+		'view_item'          => 'View Portfolio',
+		'search_items'       => 'Search Portfolio',
 		'not_found'          => 'No event found',
 		'not_found_in_trash' => 'No event found in Trash',
 		'parent_item_colon'  => '',
-		'menu_name'          => 'Services',
+		'menu_name'          => 'Portfolio',
 	);
 
 	$args = array(
@@ -26,7 +26,7 @@ function jsix_services() {
 		'show_ui'            => true,
 		'show_in_menu'       => true,
 		'query_var'          => true,
-		'rewrite'            => array( 'slug' => 'services' ),
+		'rewrite'            => array( 'slug' => 'portfolio' ),
 		'capability_type'    => 'post',
 		'taxonomies'         => array( 'category' ),
 		'has_archive'        => true,
@@ -34,6 +34,6 @@ function jsix_services() {
 		'supports'           => array( 'title', 'editor', 'thumbnail', )
 	);
 
-register_post_type( 'Services', $args );
+register_post_type( 'Portfolio', $args );
 }
-add_action( 'init', 'jsix_services' );
+add_action( 'init', 'akc_portfolio' );
