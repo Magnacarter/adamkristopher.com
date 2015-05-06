@@ -20,6 +20,6 @@
 		</nav>
 
 		<div class="mobile-nav">
-			<a href=""><img src="http://jsix.creativeproductionsgroup.com/wp-content/uploads/2015/05/hamburger.png"/></a>
+			<a href=""><img src="http://adamkristopher.com/wp-content/uploads/2015/05/HAMBURGER_MENU-512.png"/></a>
 			<?php wp_nav_menu( array( 'menu' => 'main-nav' ) ); ?>
 		</div>
