@@ -1,0 +1,673 @@
+/*
+	Theme Name: Lauren Black Portfolio
+	Theme URI: http://lauren-black.com
+	Descrtiption: Custom design by Lauren Black
+	Author: Adam Carter
+	Author URI: http://www.adamkristopher.com
+	Version: 1.0
+	Tags: custom, adaptive, responsive
+*/
+
+@import url( //fonts.googleapis.com/css?family=Oswald:400,700,300 );
+@import url( //fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic );
+
+body {
+	margin: 0;
+	font-family: 'Oswald', sans-serif, helvetica;
+	background-color: #fff;
+
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-text-size-adjust: 100%;
+}
+
+/*--input placeholder text for email form--*/
+	::-webkit-input-placeholder {
+	color: #5e5e5e;
+	font-family: 'Arvo', sans-serif, helvetica;
+
+}
+
+:-moz-placeholder { /* Firefox 18- */
+	color: #5e5e5e;
+	font-family: 'Arvo', sans-serif, helvetica;
+
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+	color: #5e5e5e;
+	font-family: 'Arvo', sans-serif, helvetica;
+
+}
+
+:-ms-input-placeholder {
+	color: #5e5e5e;
+	font-family: 'Arvo', sans-serif, helvetica;
+
+}
+
+h1 {
+	margin: 0 0;
+	font-size: 60px;
+}
+
+h2 {
+	margin: 0 0;
+	font-size: 28px;
+}
+
+h3 {
+	margin: 0 0;
+	font-size: 25px;
+}
+
+h4 {
+	margin: 0 0;
+	font-size: 24px;
+}
+
+h5 {
+	margin: 0 0;
+	font-size: 15px;
+}
+
+p {
+	font-family: 'Arvo', sans-serif, helvetica;
+	color: #5e5e5e;
+}
+
+/*===================================
+ * Header Elements
+ ==================================*/
+.logo {
+	margin-top: 50px;
+	text-align: center;
+}
+
+@media only screen and ( max-width: 601px ) {
+	img {
+		width: 100%;
+	}
+}
+
+/*===================================
+ * Navigation
+ ==================================*/
+nav {
+	text-align: center;
+}
+
+nav ul li {
+	padding-right: 55px;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 26px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #5e5e5e;
+}
+
+nav ul li a:hover {
+	color: #f1552a;
+}
+
+/*-magic line-*/
+
+.nav-wrap { margin: 50px auto;  background-color: rgba(0,0,0,0.6); border-top: 5px solid #000; border-bottom: 5px solid #555; }
+#example-one { margin: 0 auto; list-style: none; position: relative; width: 960px; }
+#example-one li { display: inline; }
+#example-one li a { color: #000; font-size: 14px; display: block; float: left; padding: 6px 10px 4px 10px; text-decoration: none; text-transform: uppercase; }
+#example-one li a:hover { color: pink; }
+#magic-line { position: absolute; bottom: -2px; left: 0; width: 100px; height: 2px; background: #fff; }
+
+/*===================================
+ * Homepage Content
+ ==================================*/
+.feature-project {
+	padding: 50px 50px 0 50px;
+	position: relative;
+}
+
+.single-project-wrap {
+	position: relative;
+}
+
+.single-project {
+	padding: 0 48px;
+}
+
+.feature-hover {
+	padding: 0 78px;
+	display: none;
+	position: absolute;
+	z-index: 2;
+	top: 66%;
+	left: 58%;
+}
+
+@media only screen and ( max-width: 1198px ) {
+	.feature-hover {
+		left: 48%;
+		top: 56%;
+		padding: 0 40px;
+	}
+}
+
+@media only screen and ( max-width: 1008px ) {
+	.feature-hover {
+		left: 50%;
+		top: 60%;
+		padding: 0 20px;
+	}
+}
+
+@media only screen and ( max-width: 908px ) {
+	.feature-hover {
+		top: 55%;
+		padding: 0 0px;
+	}
+}
+
+@media only screen and ( max-width: 808px ) {
+	.feature-hover {
+		top: 30%;
+		left: 60%;
+		padding: 0 55px;
+	}
+}
+
+.single-hover {
+	display: none;
+	position: absolute;
+	margin-top: -44.5%;
+	height: 99%;
+	width: 76%;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+@media only screen and ( max-width: 1126px ) {
+	.single-hover {
+		width: 75%;
+		height: 97%;
+		margin-top: -43.2%;
+	}
+}
+
+.single-hover h3 {
+	margin-top: 20%;
+	margin-left: 8%;
+	margin-right: 70px;
+	border-bottom: 2px solid;
+	border-color: #f1552a;
+}
+
+@media only screen and ( max-width: 1000px ) {
+	.single-hover {
+		width: 71%;
+		height: 96%;
+		margin-top: -41.1%;
+	}
+
+	.single-hover h3 {
+		margin-top: 18%;
+		font-size: 18px;
+	}
+}
+
+@media only screen and ( max-width: 860px ) {
+	.single-hover {
+		width: 65%;
+		height: 96%;
+		margin-top: -39.1%;
+	}
+
+	.single-hover h3 {
+		margin-top: 12%;
+	}
+}
+
+@media only screen and ( max-width: 800px ) {
+	.single-hover {
+		width: 65%;
+		height: 96%;
+		margin-top: -38.1%;
+	}
+}
+
+@media only screen and ( max-width: 766px ) {
+	.single-project {
+		padding: 0 0;
+	}
+
+	.single-hover {
+		width: 100%;
+		height: 99%;
+		margin-top: -57.1%;
+	}
+
+	.single-hover h3 {
+		margin-top: 30%;
+		font-size: 25px;
+	}
+
+	.feature-project {
+		padding: 0 0;
+	}
+
+	.feature-hover {
+		left: 6%;
+		top: 41%;
+	}
+}
+
+@media only	screen and ( max-width:600px ) {
+	.feature-hover {
+		top: 30%;
+	}
+}
+
+@media only	screen and ( max-width:500px ) {
+	.feature-hover {
+		top: 15%;
+		padding: 0 0;
+	}
+}
+
+.single-hover h5 {
+	margin-left: 8%;
+}
+
+.single-work h3,
+.single-work h5,
+.single-hover h3,
+.single-hover h5,
+.feature-hover h1,
+.feature-hover h3 {
+	color: #fff;
+	font-weight: 400;
+}
+
+.single-project img ,
+.feature-project img {
+	width: 100%;
+	height: 100%;
+}
+
+/*===================================
+ * About Page Content
+ ==================================*/
+.about {
+	padding: 0 92px;
+	margin-top: 80px;
+	margin-bottom: 75px;
+}
+
+.about .lauren-about h2,
+.about .lauren-approach h2 {
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.about .lauren-about {
+	padding: 0 30px;
+}
+
+.about .lauren-approach {
+	padding: 0 30px;
+}
+
+@media only screen and ( max-width: 1010px ) {
+	.about {
+		padding: 0 10px;
+	}
+}
+
+@media only screen and ( max-width: 767px ) {
+	.lauren-image {
+		text-align: center;
+		padding: 0 10px 20px 10px;
+		width: 100%;
+	}
+}
+
+
+/*===================================
+ * Portfolio Page Content
+ ==================================*/
+.gallery-categories {
+	padding-top: 40px;
+	margin-bottom: -20px;
+	text-align: center;
+}
+
+.gallery-categories ul li {
+	padding-right: 40px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+.gallery-categories ul li a {
+	text-transform: uppercase;
+	font-size: 20px;
+	text-decoration: none;
+	color: #5e5e5e;
+}
+
+.gallery-categories ul li a:hover {
+	color: #f1552a;
+}
+
+.single-work-wrap {
+	padding: 0 20px;
+}
+
+.single-work {
+	padding: 20px 20px;
+	position: relative;
+}
+
+.single-work img {
+	height: 100%;
+	width: 100%;
+}
+
+.gallery-hover-text-wrap {
+	padding-left: 8%;
+	padding-top: 5%;
+}
+
+.gallery-hover {
+	display: none;
+	position: absolute;
+	top: 20px;
+	height: 81%;
+	width: 90%;
+	background: rgba(0, 0, 0, 0.8);
+}
+
+.gallery-hover h3 {
+	margin-top: 20%;
+	margin-right: 90px;
+	border-bottom: 2px solid;
+	border-color: #f1552a;
+}
+
+@media only screen and ( max-width: 1024px ) {
+	.gallery-hover {
+		height: 79%;
+		width: 88%;
+	}
+
+	.gallery-hover h3 {
+		font-size: 15px;
+	}
+}
+
+@media only screen and ( max-width: 768px ) {
+	.gallery-hover {
+		margin-top: -20px;
+		height: 96%;
+		width: 100%;
+	}
+
+	.gallery-hover h3 {
+		font-size: 20px;
+	}
+
+	.single-work {
+		padding: 0px 0;
+		margin: 0 0;
+	}
+
+	.gallery-categories {
+		margin-bottom: 3px;
+	}
+
+	.gallery-categories ul li {
+		padding-right: 27px;
+	}
+
+	.gallery-categories ul li a {
+		font-size: 16px;
+	}
+}
+
+@media only screen and ( max-width: 768px ) {
+	.gallery-hover {
+		margin-top: -20px;
+		height: 99%;
+		width: 100%;
+	}
+}
+
+@media only screen and ( max-width: 656px ) {
+	.gallery-categories ul {
+		padding-left: 0px;
+	}
+
+	.gallery-categories ul li {
+		display: block;
+		padding: 0px 0px 15px 0;
+		margin: 0 0;
+	}
+
+	.gallery-categories ul li a {
+		font-size: 22px;
+	}
+}
+
+/*===================================
+ * Blog
+ ==================================*/
+#blog {
+	margin: 80px 0;
+}
+
+.excerpts {
+	padding: 0 92px;
+}
+
+.title h2 a {
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.title h2 a:hover{
+	color: #f1552a;
+}
+
+#widget-area {
+	float: right;
+	margin-right: 25%;
+}
+
+.widget h3 {
+	display: none;
+}
+
+@media only screen and ( max-width: 1060px ) {
+	.excerpt-area {
+		float: none;
+	}
+
+	.excerpts {
+		padding: 0 10px;
+	}
+
+	.blog-image-wrap {
+		text-align: center;
+	}
+}
+
+/*===================================
+ * Footer
+ ==================================*/
+footer {
+	margin-bottom: 30px;
+}
+
+footer .footer-form .turn-key {
+	padding: 34px 50px 0 50px;
+}
+
+footer .footer-form .turn-key h2 {
+	margin: 0 0;
+	color: #f1552a;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+footer .footer-form .email-form {
+	padding: 0 50px 0px 50px;
+}
+
+footer .footer-section .icon-header {
+	margin-left: 50px;
+	margin-top: -30px
+}
+
+footer .footer-section .ss-icon {
+	margin-left: -16px;
+	margin-top: -26px
+}
+
+footer .footer-section .ss-icon a {
+	margin-right: 15px;
+	text-decoration: none;
+	color: #5e5e5e;
+	font-size: 24px;
+}
+
+footer .footer-section .ss-icon a:hover {
+	color: #f1552a;
+}
+
+footer .footer-section .icon-header h4 {
+	text-transform: uppercase;
+	color: #5e5e5e;
+	font-weight: 400;
+}
+
+footer .copyright h5 {
+	margin-top: 20px;
+	padding-left: 50px;
+	text-transform: uppercase;
+	color: #5e5e5e;
+	font-weight: 400;
+}
+
+/*--button top padding--*/
+.gform_wrapper .gform_footer {
+	padding: 15px 0 0 0 !important;
+	margin: 0 !important;
+}
+
+/*--form button--*/
+body .gform_wrapper .gform_footer input[type=submit] {
+	float: right;
+	background-color: #f1552a;
+	color: #fff;
+	border-radius: 9px;
+	padding: 5px 15px;
+}
+
+/*--input field border--*/
+body .gform_wrapper .gform_body .gform_fields .gfield input[type=text],
+body .gform_wrapper .gform_body .gform_fields .gfield .ginput_container textarea {
+	margin-bottom: 0px;
+	border: 2px solid #5e5e5e;
+	border-radius: 5px;
+}
+
+.name-field {
+	padding: 20px 50px;
+}
+
+/*--name input field magrin--*/
+.gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield span.name_first {
+	width: 104%;
+}
+
+
+/*===================================
+ * Media Quires
+ ==================================*/
+@media only screen and ( max-width: 1200px ) {
+
+}
+
+@media only screen and ( max-width: 1128px ) {
+	footer .footer-section {
+		text-align: center;
+	}
+
+	footer .footer-section .icon-header {
+		margin-left: 0px;
+		margin-top: 0px
+	}
+
+	footer .footer-section .ss-icon {
+		margin-left: 0px;
+		margin-top: 0px
+	}
+
+	footer .copyright h5 {
+		margin-top: 20px;
+		padding-left: 0px;
+	}
+}
+
+@media only screen and ( max-width: 961px ) {
+
+}
+
+@media only screen and ( max-width: 865px ) {
+
+}
+
+@media only screen and ( max-width: 801px ) {
+
+}
+
+@media only screen and ( max-width: 724px ) {
+
+}
+
+@media only screen and ( max-width: 670px ) {
+
+}
+
+@media only screen and ( max-width: 619px ) {
+
+}
+
+@media only screen and ( max-width: 569px ) {
+
+}
+
+@media only screen and ( max-width: 522px ) {
+
+}
+
+@media only screen and ( max-width: 480px ) {
+	body .gform_wrapper .gform_footer input[type=submit] {
+		float: none;
+	}
+}
+
+@media only screen and ( max-width: 422px ) {
+
+}
+
+@media only screen and ( max-width: 410px ) {
+
+}
+
+@media only screen and ( max-width: 390px ) {
+
+}
+
