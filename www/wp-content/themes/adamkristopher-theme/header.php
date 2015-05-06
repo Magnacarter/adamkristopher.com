@@ -6,6 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ) ?>">
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/favicon.ico" />
+
 		<?php wp_head() ?>
 	</head>
 	<body <?php body_class() ?>>
@@ -18,18 +19,19 @@
 			<?php wp_nav_menu( array( 'menu' => 'main-nav' ) ); ?>
 		</nav>
 
-<div class="nav-wrap">
- <ul class="group" id="example-one">
-    <li class="current_page_item"><a href="#">Home</a></li>
-    <li><a href="#">Buy Tickets</a></li>
-    <li><a href="#">Group Sales</a></li>
-    <li><a href="#">Reviews</a></li>
-    <li><a href="#">The Show</a></li>
-    <li><a href="#">Videos</a></li>
-    <li><a href="#">Photos</a></li>
-    <li><a href="#">Magic Shop</a></li>
- </ul>
-</div>
+		<div class="triangle">
+			<p>&#9650;</p>
+		</div>
+
+		<div class="mobile-nav">
+			<a href=""><img src="http://jsix.creativeproductionsgroup.com/wp-content/uploads/2015/05/hamburger.png"/></a>
+			<?php wp_nav_menu( array( 'menu' => 'main-nav' ) ); ?>
+		</div>
+
+		<div class="nav-line">
+			<HR WIDTH="100%" COLOR="#d6d6d6" SIZE="10">
+		</div>
+
 
 
 
