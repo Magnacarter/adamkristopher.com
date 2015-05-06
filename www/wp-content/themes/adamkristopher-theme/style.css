@@ -47,12 +47,12 @@ body {
 
 h1 {
 	margin: 0 0;
-	font-size: 38px;
+	font-size: 40px;
 }
 
 h2 {
 	margin: 0 0;
-	font-size: 28px;
+	font-size: 30px;
 }
 
 h3 {
@@ -71,6 +71,7 @@ h5 {
 }
 
 p {
+	font-size: 11px;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif, helvetica;
 	color: #5e5e5e;
@@ -117,7 +118,6 @@ nav ul li {
 }
 
 nav ul li a {
-	text-decoration: none;
 	color: #d9e0c3;
 }
 
@@ -167,11 +167,9 @@ nav ul li:hover ul{
 	padding: 4.5% 3.5% 3.5% 3.5%;
 	text-transform: uppercase;
 	font-size: 16px;
-	list-style: none;
 }
 
 .mobile-nav ul li a {
-	text-decoration: none;
 	color: #d9e0c3;
 }
 
@@ -179,27 +177,7 @@ nav ul li:hover ul{
 	color: #555;
 }
 
-.logo {
-	position: absolute;
-	z-index: 2;
-	top: 6px;
-	left: 55px;
-}
-
-.logo img {
-	border: none;
-}
-
 @media only screen and ( max-width: 1090px ) {
-	.logo {
-		position: absolute;
-		width: 137px;
-		margin-left: auto;
-		margin-right: auto;
-		left: 0;
-		right: 0;
-	}
-
 	.mobile-nav {
 		display: block;
 	}
@@ -237,115 +215,14 @@ footer {
 	margin-bottom: 30px;
 }
 
-.left-right-wrap {
-	padding: 0 122px;
-}
-
-.join-header {
-	padding: 50px 90px;
-	background: #869d42;
-	float: right;
-}
-
-.join-header h3 {
-	font-size: 22px;
-	font-weight: 300;
-	color: #fff;
-}
-
-.price-button-wrap {
-	float: right;
-}
-
-.livestock-price-button,
-.grain-price-button {
-	text-align: center;
-	padding: 5px 60px;
-	margin: 10px 0;
-	border: 3px solid #869d42;
-}
-
-.livestock-price-button p,
-.grain-price-button p {
-	color: #869d42;
-	margin: 0;
-}
-
-.livestock-price-button:hover,
-.grain-price-button:hover {
-	background: #869d42;
-	color: #fff;
-}
-
-.livestock-price-button:hover p,
-.grain-price-button:hover p {
-	color: #fff;
-}
-
-.footer-nav ul {
-	padding: 0;
-}
-
-.footer-nav ul li a {
-	color: #555;
-}
-
-.contact-info ul li {
-	color: #555;
-}
-
-.contact-info ul li::first-letter {
-	color: #869d42;
-}
-
-.footer-header h2 {
-	text-transform: uppercase;
-	font-weight: 300;
-	color: #869d42;
-}
-
-.icons .ss-icon a {
-	margin-right: 5px;
-	font-size: 20px;
-	color: #555;
-}
-
-.copyright {
-	margin-top: 30px;
-	text-align: center;
-}
-
-.copyright a,
-.copyright h5 {
-	color: #555;
-}
-
-.icons .ss-icon a:hover,
-.copyright a:hover,
-.footer-nav ul li a:hover {
-	color: #869d42;
-}
-
 /*===================================
  * Media Quires
  ==================================*/
 @media only screen and ( max-width: 1090px ) {
-	.left-right-wrap {
-		padding: 0 60px;
-	}
+
 }
 
 @media only screen and ( max-width: 767px ) {
-	.price-button-wrap {
-		float: none;
-	}
-
-	.join-header {
-		text-align: center;
-		float: none;
-		clear: both;
-	}
-
 	.icons {
 		text-align: center;
 		margin-bottom: 20px;
@@ -353,8 +230,6 @@ footer {
 }
 
 @media only screen and ( max-width: 650px ) {
-	.left-right-wrap {
-		padding: 0 20px;
-	}
+
 }
 
