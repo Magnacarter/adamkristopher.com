@@ -55,8 +55,8 @@ function akc_after_setup_theme() {
 	// Sidebar area
 	register_sidebar(
 		array(
-			'name'          => 'Jsix Widgets',
-			'id'            => 'jsix_widgets',
+			'name'          => 'AKC Widgets',
+			'id'            => 'akc_widgets',
 			'description'   => 'Displays widgets on blog',
 			'before_widget' => '<div id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</div>',
