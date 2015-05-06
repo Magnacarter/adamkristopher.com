@@ -148,7 +148,7 @@ nav ul li:hover ul{
 
 .mobile-nav {
 	display: none;
-	background: #869d42;
+	background: #777;
 }
 
 .mobile-nav img {
@@ -166,8 +166,12 @@ nav ul li:hover ul{
 	font-size: 16px;
 }
 
+.mobile-nav ul li a {
+	color: #fff;
+}
+
 .mobile-nav ul li a:hover {
-	color: #555;
+	color: #888;
 }
 
 @media only screen and ( max-width: 1090px ) {
