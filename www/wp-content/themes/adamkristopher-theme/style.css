@@ -57,21 +57,21 @@ h2 {
 
 h3 {
 	margin: 0 0;
-	font-size: 20px;
+	font-size: 25px;
 }
 
 h4 {
 	margin: 0 0;
-	font-size: 15px;
+	font-size: 20px;
 }
 
 h5 {
 	margin: 0 0;
-	font-size: 12px;
+	font-size: 15px;
 }
 
 p {
-	font-size: 11px;
+	font-size: 15px;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif, helvetica;
 	color: #5e5e5e;
@@ -79,6 +79,7 @@ p {
 
 a {
 	text-decoration: none;
+	color: #777;
 }
 
 li {
@@ -94,7 +95,7 @@ li {
  ==================================*/
 nav {
 	text-align: center;
-	background: #869d42;
+	background: #999;
 }
 
 .nav-line hr {
@@ -103,7 +104,7 @@ nav {
 
 .menu {
 	padding: 10px 0;
-	margin: 0 29% 0 0;
+	margin: 0 0 0 0;
 }
 
 nav ul {
@@ -117,10 +118,6 @@ nav ul li {
 	font-size: 16px;
 }
 
-nav ul li a {
-	color: #d9e0c3;
-}
-
 nav ul li a:hover {
 	color: #555;
 }
@@ -128,7 +125,7 @@ nav ul li a:hover {
 nav ul ul {
 	padding: 3px 14px;
 	display: none;
-	background: #869d42;
+	background: #777;
 	position: absolute;
 	z-index: 2;
 }
@@ -139,9 +136,9 @@ nav ul ul li {
 }
 
 nav ul ul li a {
-	background-color: #869d42;
-	border: 1px solid #869d42;
-	color: #d9e0c3;
+	background-color: #555;
+	border: 1px solid #555;
+	color: #999;
 }
 
 nav ul li:hover ul{
@@ -167,10 +164,6 @@ nav ul li:hover ul{
 	padding: 4.5% 3.5% 3.5% 3.5%;
 	text-transform: uppercase;
 	font-size: 16px;
-}
-
-.mobile-nav ul li a {
-	color: #d9e0c3;
 }
 
 .mobile-nav ul li a:hover {
@@ -211,8 +204,15 @@ nav ul li:hover ul{
  * Footer
  ==================================*/
 footer {
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin: 30px 0;
+}
+
+.icons {
+	text-align: center;
+}
+
+.copyright {
+	text-align: center;
 }
 
 /*===================================
