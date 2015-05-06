@@ -4,8 +4,6 @@
  */
 get_header() ?>
 
-hi
-
 <div class="flexslider flexy">
 	<ul class="slides">
 
