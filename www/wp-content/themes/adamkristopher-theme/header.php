@@ -19,22 +19,7 @@
 			<?php wp_nav_menu( array( 'menu' => 'main-nav' ) ); ?>
 		</nav>
 
-		<div class="triangle">
-			<p>&#9650;</p>
-		</div>
-
 		<div class="mobile-nav">
 			<a href=""><img src="http://jsix.creativeproductionsgroup.com/wp-content/uploads/2015/05/hamburger.png"/></a>
 			<?php wp_nav_menu( array( 'menu' => 'main-nav' ) ); ?>
 		</div>
-
-		<div class="nav-line">
-			<HR WIDTH="100%" COLOR="#d6d6d6" SIZE="10">
-		</div>
-
-
-
-
-
-
-
