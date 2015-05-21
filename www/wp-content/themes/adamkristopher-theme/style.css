@@ -11,9 +11,9 @@
 @import url( //fonts.googleapis.com/css?family=Montserrat:400,700 );
 
 body {
+	background-color: #F9F9F9;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif, helvetica;
-	background-color: #fff;
 
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -75,7 +75,7 @@ p {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif, helvetica;
 	color: #000;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 a {
