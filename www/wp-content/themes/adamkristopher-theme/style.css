@@ -194,7 +194,8 @@ nav ul li:hover ul{
 /*===================================
  * Homepage Content
  ==================================*/
-#homepage {
+#homepage,
+#about {
 	padding: 20px 100px;
 }
 
