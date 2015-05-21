@@ -11,15 +11,25 @@
 	</head>
 	<body <?php body_class() ?>>
 
-		<div class="logo">
-			<a href="<?php echo esc_url( get_home_url() ) ?>"><img src="<?php the_field( 'logo_header', 'options' ) ?>"/></a>
-		</div>
+		<div class="nav grid-container">
+			<div class="logo grid-50">
+				<h1><a href="<?php echo esc_url( get_home_url() ) ?>">Adam Carter</a></h1>
+			</div>
 
-		<nav>
-			<?php wp_nav_menu( array( 'menu' => 'main-nav' ) ); ?>
-		</nav>
+			<nav class="big-nav grid-30">
+				<?php wp_nav_menu( array( 'menu' => 'main-nav' ) ); ?>
+			</nav>
 
-		<div class="mobile-nav">
-			<a href=""><img src="http://adamkristopher.com/wp-content/uploads/2015/05/HAMBURGER_MENU-512.png"/></a>
-			<?php wp_nav_menu( array( 'menu' => 'main-nav' ) ); ?>
+			<div class="mobile-nav">
+				<a href=""><img src="http://adamkristopher.com/wp-content/uploads/2015/05/HAMBURGER_MENU-512.png"/></a>
+				<?php wp_nav_menu( array( 'menu' => 'main-nav' ) ); ?>
+			</div>
+
+			<div class="nav-line">
+				<HR WIDTH="100%" COLOR="#000" SIZE="1">
+			</div>
+
+			<div class="site-description">
+				<p><?php bloginfo( 'description' ) ?></p>
+			</div>
 		</div>
