@@ -122,25 +122,6 @@ nav ul li a:hover {
 	color: #555;
 }
 
-nav ul ul {
-	padding: 3px 14px;
-	display: none;
-	background: #777;
-	position: absolute;
-	z-index: 2;
-}
-
-nav ul ul li {
-	padding: 5px 0;
-	display: block;
-}
-
-nav ul ul li a {
-	background-color: #555;
-	border: 1px solid #555;
-	color: #999;
-}
-
 nav ul li:hover ul{
 	display: block;
 	margin-left: -22px;
