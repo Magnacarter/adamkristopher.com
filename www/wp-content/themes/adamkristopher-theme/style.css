@@ -285,7 +285,7 @@ nav ul li:hover ul{
 }
 
 .feature-hover p {
-	padding: 5px;
+	padding: 5px 10px;
 	display: block;
 	color: #fff;
 	font-size: 15px;
