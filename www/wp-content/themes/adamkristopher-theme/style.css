@@ -251,6 +251,10 @@ nav ul li:hover ul{
 	font-size: 15px;
 }
 
+#recent-posts-2 ul {
+	padding: 0;
+}
+
  /*===================================
  * Porfolio Page Content
  ==================================*/
