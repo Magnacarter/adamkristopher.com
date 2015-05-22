@@ -12,8 +12,6 @@
 
 	</div>
 
-	<?php get_sidebar( 'homepage' ) ?>
-
 </div>
 
 <?php get_footer() ?>
