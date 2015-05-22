@@ -4,7 +4,7 @@ get_header() ?>
 
 <section id="homepage" class="grid-container">
 
-	<div class="homepage-content grid-60">
+	<div class="homepage-content grid-65">
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post() ?>
 

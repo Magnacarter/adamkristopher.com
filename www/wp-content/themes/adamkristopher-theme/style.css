@@ -215,6 +215,11 @@ nav ul li:hover ul{
 .about-post p,
 .blog-post p {
 	margin: 10px 0;
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 19px;
+	font-weight: 300;
+	color: #111;
 }
 
 .homepage-content h3 {
