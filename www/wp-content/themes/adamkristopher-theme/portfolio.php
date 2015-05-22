@@ -16,11 +16,13 @@ $portfolio = new WP_Query( $args ) ?>
 		<?php while ( $portfolio->have_posts() ) : $portfolio->the_post() ?>
 
 		<div class="portfolio-content grid-50">
-			<a href="<?php the_field( 'project_link' ) ?>"><img src="<?php the_field( 'photo' ) ?>"/></a>
+			<img src="<?php the_field( 'photo' ) ?>"/>
 				<div class="feature-hover">
-					<h1><?php the_title() ?></h1>
-					<p><?php the_field( 'description' ) ?></p>
-					<i><p><?php the_field( 'testimonial' ) ?></p></i>
+					<a href="<?php the_field( 'project_link' ) ?>" target="_blank">
+						<h1><?php the_title() ?></h1>
+						<p><?php the_field( 'description' ) ?></p>
+						<i><p><?php the_field( 'testimonial' ) ?></p></i>
+					</a>
 				</div>
 		</div>
 
