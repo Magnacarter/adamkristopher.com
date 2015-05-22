@@ -28,11 +28,8 @@ jQuery( document ).ready( function($) {
 		}, 1000);
 	});
 
-	//nav triangle marker
-
-
 	//Hover elements for feature project
-	var featureProject = $( '.feature-project' );
+	var featureProject = $( '.portfolio-content' );
 
 	featureProject.hover(
 		function() {

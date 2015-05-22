@@ -166,6 +166,10 @@ nav ul li:hover ul{
 	color: #2fae4a;
 }
 
+.nav {
+	padding-top: 30px;
+}
+
 .logo h1 a {
 	color: #2fae4a;
 	font-weight: 300;
@@ -246,9 +250,39 @@ nav ul li:hover ul{
  /*===================================
  * Porfolio Page Content
  ==================================*/
-.portfolio a img {
-	width: 200px;
-	height: auto;
+.portfolio-content {
+	position: relative;
+	padding: 10px 50px;
+}
+
+.portfolio-content img {
+	max-width: 100%;
+}
+
+.feature-hover {
+	display: none;
+	position: absolute;
+	z-index: 5;
+	top: 4%;
+	height: 91.3%;
+	width: 83.3%;
+	text-align: center;
+	background: rgba(40, 41, 45, 0.5);
+}
+
+.feature-hover h1 {
+	padding: 50px 10px 20px 10px;
+	display: block;
+	color: #fff;
+	text-align: center;
+	font-weight: 400;
+}
+
+.feature-hover p {
+	padding: 10px 10px 10px 10px;
+	display: block;
+	color: #fff;
+	font-size: 15px;
 }
 
 /*===================================
