@@ -16,7 +16,7 @@ $portfolio = new WP_Query( $args ) ?>
 		<?php while ( $portfolio->have_posts() ) : $portfolio->the_post() ?>
 
 		<div class="portfolio-content grid-50">
-			<img src="<?php the_field( 'photo' ) ?>"/>
+			<img class="lazy" data-src="<?php the_field( 'photo' ) ?>"/>
 				<div class="feature-hover">
 					<a href="<?php the_field( 'project_link' ) ?>" target="_blank">
 						<h1><?php the_title() ?></h1>

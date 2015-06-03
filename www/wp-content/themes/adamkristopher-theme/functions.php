@@ -14,18 +14,18 @@ require_once STYLESHEETPATH . '/includes/acf.php';
  */
 function akc_enqueue_scripts() {
 	// Theme CSS
-	wp_enqueue_style( 'grid', get_stylesheet_directory_uri() . '/css/grid.css' );
-	wp_enqueue_style( 'jsix-main', get_stylesheet_directory_uri() . '/style.css' );
-	wp_enqueue_style( 'jsix-social', get_stylesheet_directory_uri() . '/ss_icon_fonts/ss-social.css' );
-	wp_enqueue_style( 'flexslider' , get_template_directory_uri() . '/css/flexslider.css');
-
+	wp_enqueue_style( 'akc-grid', get_stylesheet_directory_uri() . '/css/grid.css' );
+	wp_enqueue_style( 'akc-main', get_stylesheet_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'akc-social', get_stylesheet_directory_uri() . '/ss_icon_fonts/ss-social.css' );
+	wp_enqueue_style( 'akc-flexslider' , get_template_directory_uri() . '/css/flexslider.css');
+	wp_enqueue_style( 'akc-animate' , get_template_directory_uri() . '/css/animate.min.css');
 
 	// Theme JS
-	wp_enqueue_script( 'flexslider' , get_template_directory_uri() . '/js/jquery.flexslider-min.js', array('jquery'), '' , true);
-	wp_enqueue_script( 'flexslider' , get_template_directory_uri() . '/js/jquery.flexslider.js', array('jquery'), '' , true);
-	wp_enqueue_script( 'flexslider' , get_template_directory_uri() . '/js/jquery.mousewheel.js', array('jquery'), '' , true);
-	wp_enqueue_script( 'flexslider' , get_template_directory_uri() . '/js/jquery.easing.js', array('jquery'), '' , true);
-	wp_enqueue_script( 'jsix-theme-js', get_stylesheet_directory_uri() . '/js/theme.js', array( 'jquery' ), false, true );
+	wp_enqueue_script( 'akc-lazyloadxt' , get_template_directory_uri() . '/js/jquery.lazyloadxt.js', array('jquery'), '' , true);
+	wp_enqueue_script( 'akc-flexslider' , get_template_directory_uri() . '/js/jquery.flexslider-min.js', array('jquery'), '' , true);
+	wp_enqueue_script( 'akc-mousewheel' , get_template_directory_uri() . '/js/jquery.mousewheel.js', array('jquery'), '' , true);
+	wp_enqueue_script( 'akc-easing' , get_template_directory_uri() . '/js/jquery.easing.js', array('jquery'), '' , true);
+	wp_enqueue_script( 'aks-theme-js', get_stylesheet_directory_uri() . '/js/theme.js', array( 'jquery' ), false, true );
 }
 add_action( 'wp_enqueue_scripts', 'akc_enqueue_scripts' );
 

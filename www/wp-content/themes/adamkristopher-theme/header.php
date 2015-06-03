@@ -9,7 +9,7 @@
 
 		<?php wp_head() ?>
 	</head>
-	<body <?php body_class() ?>>
+	<body <?php body_class() ?> class="lazy">
 
 		<div class="nav grid-container">
 			<div class="logo grid-50">

@@ -21,7 +21,7 @@ get_header() ?>
 	<?php wp_reset_postdata() ?>
 
 	<div class="sidebar grid-30">
-		<?php get_sidebar( 'homepage' ); ?>
+		<?php get_sidebar( 'homepage' ) ?>
 	</div>
 
 </section>
