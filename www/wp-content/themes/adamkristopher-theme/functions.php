@@ -67,7 +67,28 @@ function akc_after_setup_theme() {
 }
 add_action( 'after_setup_theme', 'akc_after_setup_theme' );
 
+// Add Jetpack share buttons above post
+remove_filter( 'the_content', 'sharing_display', 19 );
+remove_filter( 'the_excerpt', 'sharing_display', 19 );
 
+/**
+ * Add Jetpack Sharing buttons above the content
+ *
+ * @add_filter the_content
+ * @add_filter the_excerpt
+ *
+ * @return void
+ */
+function akc_share_buttons_above_post( $content = '' ) {
 
+	if ( function_exists( 'sharing_display' ) ) {
 
+		return sharing_display() . $content;
 
+	} else {
+
+		return $content;
+	}
+}
+add_filter( 'the_content', 'akc_share_buttons_above_post', 19 );
+add_filter( 'the_excerpt', 'akc_share_buttons_above_post', 19 );
