@@ -220,7 +220,8 @@ nav ul li:hover ul{
 	padding: 20px 100px;
 }
 
-.homepage-content {
+.homepage-content,
+.excerpt {
 	background-color: #FDFDFD;
 	padding: 45px;
 }
@@ -230,7 +231,8 @@ nav ul li:hover ul{
 }
 
 .about-post p,
-.blog-post p {
+.blog-post p,
+.excerpt p {
 	margin: 24px 0;
 	line-height: 25px;
 	font-size: 19px;
@@ -427,8 +429,29 @@ nav ul li:hover ul{
 /*===================================
  * Single Post
  ==================================*/
+.blog-sidebar {
+	float: right;
+}
+
+#single-post {
+	padding: 50px;
+	margin: 0 50px;
+}
+
+ul.info {
+	padding: 0;
+}
+
+ul.info li {
+	display: inline-block;
+}
+
 .excerpt p {
 	margin: 15px 0;
+}
+
+article h3 a {
+	color: #443B3B;
 }
 
 /*===================================
