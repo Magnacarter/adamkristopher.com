@@ -95,6 +95,10 @@ img.lazy {
 	display: none;
 }
 
+pre, code {
+	background-color: LightGrey;
+}
+
 /*===================================
  * Header Elements
  ==================================*/
@@ -214,6 +218,11 @@ nav ul li:hover ul{
 #homepage,
 #about {
 	padding: 20px 100px;
+}
+
+.homepage-content {
+	background-color: #fff;
+	padding: 40px;
 }
 
 .blog-post {
