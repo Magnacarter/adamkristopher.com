@@ -130,10 +130,10 @@ div.sharedaddy h3.sd-title:before {
 	font-family: 'Montserrat', sans-serif, helvetica !important;
 	font-weight: 400 !important;
 	border-radius: 0 !important;
-	-webkit-transition: background-color 0.5s ease;
-	-moz-transition: background-color 0.5s ease;
-	-o-transition: background-color 0.5s ease;
-	transition: background-color 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 	background: #2F2D2C !important;
 	border: none !important;
 	box-shadow: none !important;
@@ -158,6 +158,7 @@ div.sharedaddy h3.sd-title:before {
 .sd-content ul li a span,
 .sd-content ul li a.sd-button:before {
 	color: #fff;
+	padding: 2px;
 }
 
 /*===================================
