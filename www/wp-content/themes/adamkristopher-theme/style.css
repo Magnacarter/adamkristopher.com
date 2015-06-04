@@ -181,7 +181,7 @@ nav ul li:hover ul{
 }
 
 .site-description p {
-	color: #ee6930;
+	color: #AEACAB;
 }
 
 @media only screen and ( max-width: 1280px ) {
@@ -218,20 +218,19 @@ nav ul li:hover ul{
 
 .about-post p,
 .blog-post p {
-	margin: 15px 0;
-	line-height: 20px;
-	font-size: 16px;
-	font-weight: 300;
-	color: #111;
+	margin: 24px 0;
+	line-height: 25px;
+	font-size: 19px;
+	color: #4D4C4C;
 }
 
 .homepage-content h3 {
 	font-weight: 300;
-	color: #000;
+	font-size: 30px;
 }
 
 .homepage-content h3 a{
-	color: #000;
+	color: #2F2D2D;
 }
 
 .sidebar {
@@ -239,16 +238,18 @@ nav ul li:hover ul{
 }
 
 #widget-area {
-	padding: 50px;
+	padding: 22px;
 	background-color: #F0F0F0;
 }
 
 #widget-area h3 {
-	border-bottom: 1px solid #000;
-	font-size: 20px;
+	padding: 10px 0;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #0D0C0C;
+	font-size: 35px;
 	font-weight: 700;
 	text-transform: uppercase;
-	text-align: center;
+	color: #2F2D2D;
 }
 
 #widget-area ul li {

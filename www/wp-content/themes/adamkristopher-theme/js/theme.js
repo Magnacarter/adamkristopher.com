@@ -14,7 +14,6 @@ jQuery( document ).ready( function($) {
 
 	//Lazy load
 	$.lazyLoadXT.onload.addClass = 'animated slideInUp';
-	$('.lazy').lazyLoadXT();
 
 	//Mobile Nav
 	$( '.mobile-nav a' ).click(
