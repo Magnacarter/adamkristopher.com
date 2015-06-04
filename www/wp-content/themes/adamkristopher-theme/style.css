@@ -107,6 +107,19 @@ pre, code {
 	padding: 0;
 }
 
+div.sharedaddy h3.sd-title {
+	margin: 0 0 1em;
+	display: inline-block;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 300;
+	color: #777;
+}
+
+div.sharedaddy h3.sd-title:before {
+	display: none;
+}
+
 .content div.sharedaddy .sd-content {
 	float: left;
 	margin-bottom: 32px;
