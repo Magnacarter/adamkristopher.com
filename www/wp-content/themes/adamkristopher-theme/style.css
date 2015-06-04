@@ -117,7 +117,7 @@ div.sharedaddy h3.sd-title {
 }
 
 div.sharedaddy h3.sd-title:before {
-	display: none;
+	border-top:none;
 }
 
 .content div.sharedaddy .sd-content {
