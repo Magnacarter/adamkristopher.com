@@ -131,6 +131,10 @@ div.sharedaddy h3.sd-title:before {
 	padding: 4px 5px !important;
 }
 
+.sd-content a {
+	color: #ffffff !important;
+}
+
 /*===================================
  * Navigation
  ==================================*/
