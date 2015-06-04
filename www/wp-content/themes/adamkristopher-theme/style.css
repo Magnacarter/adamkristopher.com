@@ -152,8 +152,7 @@ div.sharedaddy h3.sd-title:before {
 .sd-social-official .sd-content>ul>li .digg_button >a:hover,
 .sd-social-official .sd-content>ul>li>a.sd-button:hover,
 .sd-social-text .sd-content ul li a.sd-button:hover {
-	background: #444 !important;
-	padding: 6px 8px !important;
+	background: #555 !important;
 }
 
 .sd-content ul li a span,
