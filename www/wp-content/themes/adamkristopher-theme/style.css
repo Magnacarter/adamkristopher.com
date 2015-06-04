@@ -104,10 +104,9 @@ pre, code {
  ==================================*/
 div.sharedaddy h3.sd-title {
 	margin: 10px 0 !important;
-	font-size: 16px !important;
+	font-size: 12px !important;
 	font-weight: 300 !important;
 	color: #637B93 !important;
-	text-transform: uppercase !important;
 }
 
 div.sharedaddy h3.sd-title:before {
@@ -137,7 +136,7 @@ div.sharedaddy h3.sd-title:before {
 	box-shadow: none  !important;
 	text-shadow: none !important;
 	line-height: 21px !important;
-	padding: 4px 5px !important;
+	padding: 2px 3px 2px 6px !important;
 }
 
 .sd-content ul li a.sd-button:before {
