@@ -81,10 +81,10 @@ p {
 a {
 	text-decoration: none;
 	color: #A6A6A6;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	-webkit-transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease;
+	-o-transition: color 0.5s ease;
+	transition: color 0.5s ease;
 }
 
 a:hover {
@@ -134,10 +134,10 @@ div.sharedaddy h3.sd-title:before {
 	font-family: 'Montserrat', sans-serif, helvetica !important;
 	font-weight: 400 !important;
 	border-radius: 0 !important;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	-webkit-transition: background-color 0.5s ease;
+	-moz-transition: background-color 0.5s ease;
+	-o-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
 	background: #2F2D2C !important;
 	border: none !important;
 	box-shadow: none !important;
@@ -200,10 +200,10 @@ nav ul li {
 nav ul li a {
 	color: #777;
 	font-weight: 700;
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+	-webkit-transition: color 0.5s ease;
+	-moz-transition: color 0.5s ease;
+	-o-transition: color 0.5s ease;
+	transition: color 0.5s ease;
 }
 
 nav ul li a:hover {
