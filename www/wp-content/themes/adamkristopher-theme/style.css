@@ -106,46 +106,29 @@ div.sharedaddy h3.sd-title {
 	margin: 10px 0 !important;
 	font-size: 16px !important;
 	font-weight: 300 !important;
-	color: #777 !important;
+	color: #637B93 !important;
+	text-transform: uppercase !important;
 }
 
 div.sharedaddy h3.sd-title:before {
 	border-top: none !important;
 }
 
-.content div.sharedaddy .sd-content {
-	float: left;
-	margin-bottom: 32px;
-}
-
-.content div.sharedaddy a.sd-button {
-	border: none !important;
-	box-shadow: none;
-}
-
-.content .sd-social-icon-text a.sd-button > span, a.sd-button > span {
-	opacity: 1;
-	padding: 6px 12px;
-}
-
-.content a.sd-button > span {
-	background-image: none !important;
-	background: #111;
-	border: none;
-	color: #fff;
-	font-size: 12px;
-	font-weight: 400;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}
-
-.content a.sd-button:hover > span {
-	background: #1dbec0;
-}
-
-.sd-content .sd-button span.share-count {
-	color: #cdf593 !important;
-	font-size: 100% !important;
+#sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content>ul>li .digg_button >a, .sd-social-official .sd-content>ul>li>a.sd-button, .sd-social-text .sd-content ul li a.sd-button {
+	text-decoration: none !important;
+	display: inline-block !important;
+	margin: 0 10px 10px 0;
+	font-size: 14px !important;
+	font-family: 'Montserrat', sans-serif, helvetica !important;
+	font-weight: 400 !important;
+	/* border-radius: 3px; */
+	color: #fff !important;
+	background: #ee6930 !important;
+	/* border: 1px solid #ccc; */
+	/* box-shadow: 5px 2px 0 rgba(0,0,0,0.08); */
+	text-shadow: none !important;
+	line-height: 21px !important;
+	padding: 4px 5px !important;
 }
 
 /*===================================
