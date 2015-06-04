@@ -111,22 +111,13 @@ div.sharedaddy h3.sd-title {
 	margin: 0 0 1em;
 	display: inline-block;
 	line-height: 1.2;
-	font-size: 30px;
-	font-weight: 300;
-	color: #777;
+	font-size: 30px !important;
+	font-weight: 300 !important;
+	color: #777 !important;
 }
 
 div.sharedaddy h3.sd-title:before {
-	border-top:none;
-}
-
-div.sharedaddy h3.sd-title:before {
-	content: "";
-	display: block;
-	width: 100%;
-	min-width: 30px;
 	border-top: none !important;
-	margin-bottom: 1em;
 }
 
 .content div.sharedaddy .sd-content {
