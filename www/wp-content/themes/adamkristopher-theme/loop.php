@@ -9,6 +9,8 @@
 			<li><?php the_category( ', ' ) ?></li>
 		</ul>
 
+		<HR WIDTH="100%" COLOR="#ee6930" SIZE="1">
+
 		<?php if ( is_single() ) : ?>
 
 			<?php the_content() ?>
