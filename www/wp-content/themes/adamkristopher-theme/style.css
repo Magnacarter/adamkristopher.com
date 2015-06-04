@@ -114,7 +114,16 @@ div.sharedaddy h3.sd-title:before {
 	border-top: none !important;
 }
 
-#sharing_email .sharing_send, .sd-content ul li .option a.share-ustom, .sd-content ul li a.sd-button, .sd-content ul li.advanced a.share-more, .sd-content ul li.preview-item div.option.option-smart-off a, .sd-social-icon .sd-content ul li a.sd-button, .sd-social-icon-text .sd-content ul li a.sd-button, .sd-social-official .sd-content>ul>li .digg_button >a, .sd-social-official .sd-content>ul>li>a.sd-button, .sd-social-text .sd-content ul li a.sd-button {
+#sharing_email .sharing_send,
+.sd-content ul li .option a.share-ustom,
+.sd-content ul li a.sd-button,
+.sd-content ul li.advanced a.share-more,
+.sd-content ul li.preview-item div.option.option-smart-off a,
+.sd-social-icon .sd-content ul li a.sd-button,
+.sd-social-icon-text .sd-content ul li a.sd-button,
+.sd-social-official .sd-content>ul>li .digg_button >a,
+.sd-social-official .sd-content>ul>li>a.sd-button,
+.sd-social-text .sd-content ul li a.sd-button {
 	text-decoration: none !important;
 	display: inline-block !important;
 	margin: 0 10px 10px 0;
@@ -129,10 +138,6 @@ div.sharedaddy h3.sd-title:before {
 	text-shadow: none !important;
 	line-height: 21px !important;
 	padding: 4px 5px !important;
-}
-
-.sd-content ul li a {
-	color: #ffffff !important;
 }
 
 /*===================================
