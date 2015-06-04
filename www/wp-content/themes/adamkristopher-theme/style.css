@@ -120,6 +120,15 @@ div.sharedaddy h3.sd-title:before {
 	border-top:none;
 }
 
+div.sharedaddy h3.sd-title:before {
+	content: "";
+	display: block;
+	width: 100%;
+	min-width: 30px;
+	border-top: none !important;
+	margin-bottom: 1em;
+}
+
 .content div.sharedaddy .sd-content {
 	float: left;
 	margin-bottom: 32px;
