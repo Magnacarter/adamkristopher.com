@@ -131,13 +131,16 @@ div.sharedaddy h3.sd-title:before {
 	font-family: 'Montserrat', sans-serif, helvetica !important;
 	font-weight: 400 !important;
 	border-radius: 0  !important;
-	color: #ffffff !important;
 	background: #ee6930 !important;
 	border: none  !important;
 	box-shadow: none  !important;
 	text-shadow: none !important;
 	line-height: 21px !important;
 	padding: 4px 5px !important;
+}
+
+.sd-content ul li a span {
+	color: #ffffff !important;
 }
 
 /*===================================
