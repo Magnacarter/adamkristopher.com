@@ -139,7 +139,8 @@ div.sharedaddy h3.sd-title:before {
 	padding: 4px 5px !important;
 }
 
-.sd-content ul li a span {
+.sd-content ul li a span,
+.sd-content ul li a span::before {
 	color: #ffffff !important;
 }
 
