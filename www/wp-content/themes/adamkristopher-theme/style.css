@@ -140,15 +140,7 @@ div.sharedaddy h3.sd-title:before {
 }
 
 .sd-content ul li a.sd-button:before {
-	display: inline-block;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	font: 400 16px/1 Genericons;
-	vertical-align: top;
-	position: relative;
-	top: 3px;
-	text-align: center;
-	color: #fff !important;
+	color: #fff;
 }
 
 /*===================================
