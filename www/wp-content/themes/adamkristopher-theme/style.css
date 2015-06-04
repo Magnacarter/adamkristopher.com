@@ -80,7 +80,11 @@ p {
 
 a {
 	text-decoration: none;
-	color: #ee6930;
+	color: #B0ADA9;
+}
+
+a:hover {
+	color: #777;
 }
 
 li {
