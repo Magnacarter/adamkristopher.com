@@ -96,7 +96,7 @@ img.lazy {
 }
 
 pre, code {
-	background-color: LightGrey;
+	background-color: #999;
 }
 
 /*===================================
@@ -221,8 +221,8 @@ nav ul li:hover ul{
 }
 
 .homepage-content {
-	background-color: #fff;
-	padding: 40px;
+	background-color: #FDFDFD;
+	padding: 45px;
 }
 
 .blog-post {
