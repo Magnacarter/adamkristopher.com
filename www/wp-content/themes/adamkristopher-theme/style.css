@@ -340,6 +340,27 @@ nav ul li:hover ul{
 	padding: 0;
 }
 
+.read-more-button a {
+	text-decoration: none;
+	margin: 0 10px 10px 0;
+	font-size: 14px;
+	font-family: 'Montserrat', sans-serif, helvetica;
+	font-weight: 400;
+	border-radius: 0;
+	color: #fff;
+	-webkit-transition: background-color 0.5s ease;
+	-moz-transition: background-color 0.5s ease;
+	-o-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
+	background-color: #2F2D2C;
+	line-height: 21px;
+	padding: 10px;
+}
+
+.read-more-button a:hover {
+	background-color: #777;
+}
+
  /*===================================
  * Porfolio Page Content
  ==================================*/
