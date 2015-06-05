@@ -90,4 +90,5 @@ function akc_share_buttons_above_post( $content = '' ) {
 		return $content;
 	}
 }
-add_filter( 'the_content', 'akc_share_buttons_above_post', 20 );
+add_filter( 'the_content', 'akc_share_buttons_above_post', 19 );
+add_filter( 'the_excerpt', 'akc_share_buttons_above_post', 19 );

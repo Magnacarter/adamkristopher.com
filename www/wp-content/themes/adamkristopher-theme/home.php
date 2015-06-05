@@ -13,7 +13,7 @@ get_header() ?>
 			<HR WIDTH="100%" COLOR="#ee6930" SIZE="1">
 			<p><?php the_excerpt() ?></p>
 			<div class="read-more-button">
-				<a href="<?php get_permalink() ?>"><span>Read More</span></a>
+				<a href="<?php the_permalink() ?>"><span>Read More</span></a>
 			</div>
 		</div>
 
