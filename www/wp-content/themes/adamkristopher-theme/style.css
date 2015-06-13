@@ -381,6 +381,10 @@ nav ul li:hover ul{
 	background-color: #fff;
 }
 
+.mc4wp-form label {
+	display: none !important;
+}
+
  /*===================================
  * Porfolio Page Content
  ==================================*/
