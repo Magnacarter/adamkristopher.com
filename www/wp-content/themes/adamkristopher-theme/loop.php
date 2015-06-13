@@ -13,6 +13,8 @@
 
 		<?php if ( is_single() ) : ?>
 
+			 <?php the_post_thumbnail( 'medium' ) ?>
+
 			<?php the_content() ?>
 
 			<?php comments_template() ?>
