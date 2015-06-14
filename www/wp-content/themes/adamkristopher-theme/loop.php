@@ -14,7 +14,7 @@
 		<?php if ( is_single() ) : ?>
 
 			<div class="featured-image">
-				<?php the_post_thumbnail( array(100%, 600) ) ?>
+				<?php the_post_thumbnail( array(500, 600) ) ?>
 			</div>
 
 			<?php the_content() ?>
