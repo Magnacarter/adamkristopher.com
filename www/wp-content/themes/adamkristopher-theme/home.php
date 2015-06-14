@@ -11,6 +11,7 @@ get_header() ?>
 		<div class="blog-post grid-100">
 			<h3><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h3>
 			<HR WIDTH="100%" COLOR="#ee6930" SIZE="1">
+			 <?php the_post_thumbnail( 'large' ); ?>
 			<p><?php the_excerpt() ?></p>
 			<div class="read-more-button">
 				<a href="<?php the_permalink() ?>"><span>Read More</span></a>
