@@ -291,6 +291,10 @@ nav ul li:hover ul{
 	padding: 30px;
 }
 
+.featured-image {
+	text-align: center;
+}
+
 .blog-post {
 	margin: 55px 0;
 }
