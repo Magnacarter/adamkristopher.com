@@ -13,7 +13,7 @@
 
 		<?php if ( is_single() ) : ?>
 
-			 <?php the_post_thumbnail( 'large' ) ?>
+			 <?php the_post_thumbnail( array(300, 400) ) ?>
 
 			<?php the_content() ?>
 
