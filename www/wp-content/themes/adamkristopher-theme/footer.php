@@ -16,7 +16,7 @@
 
 			<div class="copyright-section grid-container">
 				<div class="copyright grid-100">
-					<p>&copy;<?php echo date('Y '); ?><a href="<?php echo esc_url( get_home_url() ) ?>">Adam k Carter</a></p>
+					<p>&copy;<?php echo date('Y '); ?><a href="<?php echo esc_url( get_home_url() ) ?>">Adam Carter</a></p>
 				</div>
 			</div>
 
