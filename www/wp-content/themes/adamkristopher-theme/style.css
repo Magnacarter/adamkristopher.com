@@ -1,395 +1,20 @@
 /*
-	Theme Name: Adam Kristopher Theme
-	Theme URI: http://adamkristopher.com
-	Descrtiption: Custom design by Lauren Black, programming by Adam Carter
-	Author: Adam Carter
-	Author URI: http://www.adamkristopher.com
-	Version: 1.0
-	Tags: custom, adaptive, responsive
+ Theme Name:   Adam Kristopher Theme
+ Theme URI:    http://adamkristopher.com
+ Description:  Child Theme
+ Author:       Adam Carter
+ Author URI:   http://adamkristopher.com
+ Template:     sparkling
+ Version:      1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         ecommerce, responsive, adaptive, catalog
+ Text Domain:  adamkristopher-theme
 */
 
-@import url( //fonts.googleapis.com/css?family=Montserrat:400,700 );
-
-body {
-	background-color: #F9F9F9;
-	margin: 0;
-	font-family: 'Montserrat', sans-serif, helvetica;
-
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-text-size-adjust: 100%;
-}
-
-/*--input placeholder text for email form--*/
-	::-webkit-input-placeholder {
-	color: #5e5e5e;
-	font-family: 'Montserrat', sans-serif, helvetica;
-
-}
-
-:-moz-placeholder { /* Firefox 18- */
-	color: #5e5e5e;
-	font-family: 'Montserrat', sans-serif, helvetica;
-
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-	color: #5e5e5e;
-	font-family: 'Montserrat', sans-serif, helvetica;
-
-}
-
-:-ms-input-placeholder {
-	color: #5e5e5e;
-	font-family: 'Montserrat', sans-serif, helvetica;
-
-}
-
-h1 {
-	margin: 0 0;
-	font-size: 40px;
-}
-
-h2 {
-	margin: 0 0;
-	font-size: 30px;
-}
-
-h3 {
-	margin: 0 0;
-	font-size: 25px;
-}
-
-h4 {
-	margin: 0 0;
-	font-size: 20px;
-}
-
-h5 {
-	margin: 0 0;
-	font-size: 15px;
-}
-
-p {
-	font-size: 15px;
-	margin: 0;
-	font-family: 'Montserrat', sans-serif, helvetica;
-	color: #000;
-	font-weight: 300;
-}
-
-a {
-	text-decoration: none;
-	color: #A6A6A6;
-	-webkit-transition: color 0.5s ease;
-	-moz-transition: color 0.5s ease;
-	-o-transition: color 0.5s ease;
-	transition: color 0.5s ease;
-}
-
-a:hover {
-	color: #777;
-}
-
-li {
-	list-style: none;
-}
-
-img.lazy {
-	display: none;
-}
-
-pre, code {
-	background-color: #EAEAEA;
-}
+@import "../sparkling/style.css";
 
 /*===================================
- * JetPack Share Buttons
- ==================================*/
-div.sharedaddy h3.sd-title {
-	margin: 10px 0 !important;
-	font-size: 14px !important;
-	font-weight: 300 !important;
-	color: #A6A6A6 !important;
-}
-
-div.sharedaddy h3.sd-title:before {
-	border-top: none !important;
-}
-
-#sharing_email .sharing_send,
-.sd-content ul li .option a.share-ustom,
-.sd-content ul li a.sd-button,
-.sd-content ul li.advanced a.share-more,
-.sd-content ul li.preview-item div.option.option-smart-off a,
-.sd-social-icon .sd-content ul li a.sd-button,
-.sd-social-icon-text .sd-content ul li a.sd-button,
-.sd-social-official .sd-content>ul>li .digg_button >a,
-.sd-social-official .sd-content>ul>li>a.sd-button,
-.sd-social-text .sd-content ul li a.sd-button {
-	text-decoration: none !important;
-	display: inline-block !important;
-	margin: 0 10px 10px 0;
-	font-size: 12px !important;
-	font-family: 'Montserrat', sans-serif, helvetica !important;
-	font-weight: 400 !important;
-	border-radius: 0 !important;
-	-webkit-transition: background-color 0.5s ease;
-	-moz-transition: background-color 0.5s ease;
-	-o-transition: background-color 0.5s ease;
-	transition: background-color 0.5s ease;
-	background: #2F2D2C !important;
-	border: none !important;
-	box-shadow: none !important;
-	text-shadow: none !important;
-	line-height: 21px !important;
-	padding: 3px 11px 2px 6px !important;
-}
-
-#sharing_email .sharing_send:hover,
-.sd-content ul li .option a.share-ustom:hover,
-.sd-content ul li a.sd-button:hover,
-.sd-content ul li.advanced a.share-more:hover,
-.sd-content ul li.preview-item div.option.option-smart-off a:hover,
-.sd-social-icon .sd-content ul li a.sd-button:hover,
-.sd-social-icon-text .sd-content ul li a.sd-button:hover,
-.sd-social-official .sd-content>ul>li .digg_button >a:hover,
-.sd-social-official .sd-content>ul>li>a.sd-button:hover,
-.sd-social-text .sd-content ul li a.sd-button:hover {
-	background: #555 !important;
-}
-
-.sd-content ul li a span,
-.sd-content ul li a.sd-button:before {
-	color: #fff;
-}
-
-/*===================================
- * Navigation
- ==================================*/
-.big-nav {
-	float: right;
-	padding-top: 10px;
-	margin-right: -14.7%;
-}
-
-.nav {
-	padding: 0 100px;
-}
-
-.nav-line hr {
-	margin: 0;
-}
-
-.menu {
-	padding: 10px 0;
-	margin: 0 0 0 0;
-}
-
-nav ul {
-	margin-right: 500px;
-}
-
-nav ul li {
-	padding-right: 26px;
-	display: inline-block;
-	text-transform: uppercase;
-	font-size: 16px;
-}
-
-nav ul li a {
-	color: #777;
-	font-weight: 700;
-	-webkit-transition: color 0.5s ease;
-	-moz-transition: color 0.5s ease;
-	-o-transition: color 0.5s ease;
-	transition: color 0.5s ease;
-}
-
-nav ul li a:hover {
-	color: #2fae4a;
-}
-
-nav ul li:hover ul{
-	display: block;
-	margin-left: -22px;
-}
-
-.mobile-nav {
-	display: none;
-	background: #777;
-}
-
-.mobile-nav img {
-	width: 30px;
-	padding: 2%;
-}
-
-.mobile-nav ul {
-	padding-top: 2%;
-}
-
-.mobile-nav ul li {
-	padding: 4.5% 3.5% 3.5% 3.5%;
-	text-transform: uppercase;
-	font-size: 16px;
-}
-
-.mobile-nav ul li a {
-	color: #fff;
-}
-
-.mobile-nav ul li a:hover {
-	color: #2fae4a;
-}
-
-.nav {
-	padding-top: 30px;
-}
-
-.logo h1 a {
-	color: #AEAEAE;
-	font-weight: 300;
-	text-transform: uppercase;
-}
-
-.site-description p {
-	color: #86A98E;
-}
-
-@media only screen and ( max-width: 1280px ) {
-	.big-nav {
-		margin-right: -12.8%;
-	}
-}
-
-@media only screen and ( max-width: 1090px ) {
-	.mobile-nav {
-		display: block;
-	}
-
-	.mobile-nav ul {
-		display: none;
-	}
-
-	nav {
-		display: none;
-	}
-}
-
-/*===================================
- * Homepage Content
- ==================================*/
-#homepage,
-#about {
-	padding: 20px 100px;
-}
-
-.homepage-content,
-.excerpt {
-	background-color: #FDFDFD;
-	padding: 30px;
-}
-
-.featured-image {
-	text-align: center;
-}
-
-.blog-post {
-	margin: 55px 0;
-}
-
-.about-post p,
-.blog-post p,
-.excerpt p {
-	margin: 24px 0;
-	line-height: 25px;
-	font-size: 16px;
-	color: #4D4C4C;
-}
-
-.homepage-content h3 {
-	font-weight: 700;
-	font-size: 30px;
-}
-
-.homepage-content h3 a{
-	color: #2F2D2D;
-}
-
-.sidebar {
-	float: right;
-}
-
-#widget-area {
-	padding: 22px;
-	background-color: #F0F0F0;
-}
-
-#widget-area h3 {
-	padding: 10px 0;
-	margin-bottom: 10px;
-	border-bottom: 1px solid #0D0C0C;
-	font-size: 24px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #2F2D2D;
-}
-
-#widget-area ul li {
-	font-size: 15px;
-}
-
-#recent-posts-2 ul {
-	padding: 0;
-}
-
-.read-more-button a {
-	text-decoration: none;
-	margin: 0 10px 10px 0;
-	font-size: 14px;
-	font-family: 'Montserrat', sans-serif, helvetica;
-	font-weight: 400;
-	border-radius: 0;
-	color: #fff;
-	-webkit-transition: background-color 0.5s ease;
-	-moz-transition: background-color 0.5s ease;
-	-o-transition: background-color 0.5s ease;
-	transition: background-color 0.5s ease;
-	background-color: #2F2D2C;
-	line-height: 21px;
-	padding: 10px;
-}
-
-.read-more-button a:hover {
-	background-color: #777;
-}
-
-.mc4wp-form input[type=submit] {
-	margin: 0 10px 10px 0;
-	font-size: 14px;
-	font-family: 'Montserrat', sans-serif, helvetica;
-	font-weight: 400;
-	border-radius: 0;
-	color: #fff;
-	background-color: #2F2D2C;
-}
-
-.mc4wp-form input[type=submit]:hover {
-	border: 1px solid #2F2D2C;
-	color: #2F2D2C;
-	-webkit-transition: background-color 0.5s ease;
-	-moz-transition: background-color 0.5s ease;
-	-o-transition: background-color 0.5s ease;
-	transition: background-color 0.5s ease;
-	background-color: #fff;
-}
-
-.mc4wp-form label {
-	display: none !important;
-}
-
- /*===================================
  * Porfolio Page Content
  ==================================*/
 .portfolio-content {
@@ -427,45 +52,6 @@ nav ul li:hover ul{
 	display: block;
 	color: #fff;
 	font-size: 15px;
-}
-
-/*===================================
- * About Page Content
- ==================================*/
-.about-content {
-	padding: 30px 100px;
-}
-
-.about-content-wrap {
-	border-bottom: 1px solid #777;
-	padding-bottom: 100px;
-}
-
-.about-post h1 a {
-	color: #2fae4a;
-	font-weight: 300;
-}
-
-.adam-image img {
-	width: 200px;
-}
-
-.skills-lists {
-	padding: 50px 50px;
-}
-
-.skills h1 {
-	margin: 20px 0;
-	color: #2fae4a;
-	font-weight: 700;
-	text-align: center;
-}
-
-.skills-lists ul li {
-	font-size: 18px;
-	font-weight: 700;
-	color: #999;
-	list-style: none;
 }
 
 .form-wrap {
@@ -541,74 +127,62 @@ nav ul li:hover ul{
 }
 
 /*===================================
- * Single Post
+ * JetPack Share Buttons
  ==================================*/
-.blog-sidebar {
-	float: right;
+div.sharedaddy h3.sd-title {
+	margin: 10px 0 !important;
+	font-size: 14px !important;
+	font-weight: 300 !important;
+	color: #A6A6A6 !important;
 }
 
-#single-post {
-	padding: 50px;
-	margin: 0 60px;
+div.sharedaddy h3.sd-title:before {
+	border-top: none !important;
 }
 
-ul.info {
-	padding: 0;
+#sharing_email .sharing_send,
+.sd-content ul li .option a.share-ustom,
+.sd-content ul li a.sd-button,
+.sd-content ul li.advanced a.share-more,
+.sd-content ul li.preview-item div.option.option-smart-off a,
+.sd-social-icon .sd-content ul li a.sd-button,
+.sd-social-icon-text .sd-content ul li a.sd-button,
+.sd-social-official .sd-content>ul>li .digg_button >a,
+.sd-social-official .sd-content>ul>li>a.sd-button,
+.sd-social-text .sd-content ul li a.sd-button {
+	text-decoration: none !important;
+	display: inline-block !important;
+	margin: 0 10px 10px 0;
+	font-size: 12px !important;
+	font-family: 'Montserrat', sans-serif, helvetica !important;
+	font-weight: 400 !important;
+	border-radius: 0 !important;
+	-webkit-transition: background-color 0.5s ease;
+	-moz-transition: background-color 0.5s ease;
+	-o-transition: background-color 0.5s ease;
+	transition: background-color 0.5s ease;
+	background: #2F2D2C !important;
+	border: none !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+	line-height: 21px !important;
+	padding: 3px 11px 2px 6px !important;
 }
 
-ul.info li {
-	display: inline-block;
+#sharing_email .sharing_send:hover,
+.sd-content ul li .option a.share-ustom:hover,
+.sd-content ul li a.sd-button:hover,
+.sd-content ul li.advanced a.share-more:hover,
+.sd-content ul li.preview-item div.option.option-smart-off a:hover,
+.sd-social-icon .sd-content ul li a.sd-button:hover,
+.sd-social-icon-text .sd-content ul li a.sd-button:hover,
+.sd-social-official .sd-content>ul>li .digg_button >a:hover,
+.sd-social-official .sd-content>ul>li>a.sd-button:hover,
+.sd-social-text .sd-content ul li a.sd-button:hover {
+	background: #555 !important;
 }
 
-.excerpt p {
-	margin: 15px 0;
+.sd-content ul li a span,
+.sd-content ul li a.sd-button:before {
+	color: #fff;
 }
-
-article h3 a {
-	color: #443B3B;
-}
-
-/*===================================
- * Footer
- ==================================*/
-footer {
-	margin: 30px 0 10px 0;
-	padding: 0 100px;
-}
-
-.icons {
-	padding-bottom: 10px;
-	padding-top: 10px;
-	padding-left: 10px;
-}
-
-.icons .ss-icon a {
-	color: #2fae4a;
-	padding-right: 30px;
-	font-size: 15px;
-}
-
-.copyright {
-
-}
-
-/*===================================
- * Media Quires
- ==================================*/
-@media only screen and ( max-width: 1280px ) {
-	.icons {
-		padding-left:0;
-	}
-}
-
-@media only screen and ( max-width: 767px ) {
-	.icons {
-		text-align: center;
-		margin-bottom: 20px;
-	}
-}
-
-@media only screen and ( max-width: 650px ) {
-
-}
-
