@@ -26,7 +26,7 @@ function akc_portfolio() {
 		'show_ui'            => true,
 		'show_in_menu'       => true,
 		'query_var'          => true,
-		'rewrite'            => array( 'slug' => 'portfolio' ),
+		'rewrite'            => array( 'slug' => 'work' ),
 		'capability_type'    => 'post',
 		'taxonomies'         => array( 'category' ),
 		'has_archive'        => true,
