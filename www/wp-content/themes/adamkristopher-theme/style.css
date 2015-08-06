@@ -18,13 +18,11 @@
  * Porfolio Page Content
  ==================================*/
 .portfolio-content {
-	position: relative;
-	margin-top: 50px;
-	padding: 10px 50px;
+
 }
 
 .portfolio-content img {
-	max-width: 100%;
+
 }
 
 .feature-hover {
@@ -52,78 +50,6 @@
 	display: block;
 	color: #fff;
 	font-size: 15px;
-}
-
-.form-wrap {
-	background-color: #EEEEEE;
-	margin-top: 50px;
-	margin-left: 100px;
-	margin-right: 100px;
-	border: 3px solid #2fae4a;
-}
-
-.form-text {
-	padding: 50px 50px;
-}
-
-.contact-form {
-	padding: 30px 50px;
-}
-
-.ginput_container input,
-.ginput_container textarea {
-	border-radius: 10px;
-	border: none;
-}
-
-.ginput_container textarea {
-	height: 30px;
-}
-
-::-webkit-input-placeholder {
-	font-size: 15px;
-	color: #ee6930;
-}
-
-:-moz-placeholder {
-	font-size: 15px;
-	color: #ee6930;
-}
-
-::-moz-placeholder {
-	font-size: 15px;
-	color: #ee6930;
-}
-
-:-ms-input-placeholder {
-	font-size: 15px;
-	color: #ee6930;
-}
-
-.gform_body ul li label,
-.gform_body ul li label {
-	display: none !important;
-}
-
-.gform_wrapper textarea.medium {
-	height: 3.375em !important;
-}
-
-.gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=image], .gform_wrapper .gform_footer input[type=submit] {
-	display: -moz-inline-stack;
-	display: inline-block;
-	padding-top: -4px;
-	zoom: 1;
-	border: none;
-	border-radius: 12px;
-	background: #2fae4a;
-	font-size: 15px !important;
-	font-weight: 700;
-	color: #fff;
-	padding: 5px 20px;
-	margin-top: -31px;
-	cursor: pointer;
-	float: right;
 }
 
 /*===================================

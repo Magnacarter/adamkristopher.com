@@ -1,6 +1,6 @@
 <?php
 /**
- * Portfolio Loop
+ * Portfolio Page
  */
 get_header();
 
@@ -11,9 +11,7 @@ $args = array(
 $portfolio = new WP_Query( $args ) ?>
 
 <div class="portfolio-content-wrap grid-container">
-	<?php if ( $portfolio->have_posts() ) : ?>
-
-		<?php while ( $portfolio->have_posts() ) : $portfolio->the_post() ?>
+	<?php if ( $portfolio->have_posts() ) : while ( $portfolio->have_posts() ) : $portfolio->the_post() ?>
 
 		<div class="portfolio-content grid-50">
 			<img class="lazy" data-src="<?php the_field( 'photo' ) ?>"/>
