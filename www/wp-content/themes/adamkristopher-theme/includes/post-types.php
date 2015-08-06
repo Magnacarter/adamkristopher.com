@@ -6,7 +6,7 @@ function akc_portfolio() {
 	$labels = array(
 		'name'               => 'portfolio',
 		'singular_name'      => 'portfolio',
-		'add_new'            => 'Add New',
+		'add_new'            => 'Add New portfolio',
 		'add_new_item'       => 'Add New portfolio',
 		'edit_item'          => 'Edit portfolio',
 		'new_item'           => 'New portfolio',

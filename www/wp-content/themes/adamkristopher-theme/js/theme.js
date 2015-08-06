@@ -1,7 +1,4 @@
 jQuery( document ).ready( function($) {
-	
-	//Lazy load
-	$.lazyLoadXT.onload.addClass = 'animated slideInUp';
 
 	//Hover elements for feature project
 	var featureProject = $( '.portfolio-content' );
