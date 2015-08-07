@@ -19,7 +19,7 @@ $portfolio = new WP_Query( $args ) ?>
 			<?php 
 			if ( has_post_thumbnail() ) {
 				?>
-				<img id="portfolio-img" <?php the_post_thumbnail() ?>
+				<img id="portfolio-img" <?php the_post_thumbnail() ?>/>
 				<?php
 			}
 			?>
