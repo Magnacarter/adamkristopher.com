@@ -7,11 +7,6 @@ jQuery( document ).ready( function($) {
 
 	var width = img.clientWidth;
 	var height = img.clientHeight;
-	var posPortfolio = $( img ).position();
-
-	console.log( width );
-	console.log( height );
-	console.log( posPortfolio );
 
 	portfolioContent.hover(
 		function() {
