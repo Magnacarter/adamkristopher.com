@@ -18,11 +18,7 @@ $portfolio = new WP_Query( $args ) ?>
 
 			<?php 
 			if ( has_post_thumbnail() ) {
-				?>
-				<div id="portfolio-img"> 
-					<?php the_post_thumbnail() ?>
-				</div>
-				<?php
+				the_post_thumbnail();
 			}
 			?>
 

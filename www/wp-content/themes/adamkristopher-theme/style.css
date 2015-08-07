@@ -27,7 +27,6 @@
 }
 
 .feature-hover {
-	display: none;
 	position: absolute;
 	z-index: 2;
 	top: 26.1%;
