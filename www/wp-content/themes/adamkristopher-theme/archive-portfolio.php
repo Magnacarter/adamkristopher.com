@@ -12,13 +12,15 @@ $portfolio = new WP_Query( $args ) ?>
 
 <div class="portfolio-wrap grid-container">
 
-	<?php if ( $portfolio->have_posts() ) : while ( $portfolio->have_posts() ) : $portfolio->the_post(); ?>
+	<?php if ( $portfolio->have_posts() ) : while ( $portfolio->have_posts() ) : $portfolio->the_post() ?>
 
 		<div class="portfolio-content grid-50">
 
 			<?php 
 			if ( has_post_thumbnail() ) {
-				the_post_thumbnail();
+				?>
+				<img id="portfolio-img" <?php the_post_thumbnail() ?>
+				<?php
 			}
 			?>
 
