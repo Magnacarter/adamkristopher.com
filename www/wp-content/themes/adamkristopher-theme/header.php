@@ -78,7 +78,7 @@
 		<div class="container main-content-area">
 			<div class="row">
 
-				<?php if ( is_front_page() || is_page( 'about' ) )  : ?>
+				<?php if ( is_front_page() || is_page( 'about' ) ) : ?>
 
 					<div class="main-content-inner <?php echo sparkling_main_content_bootstrap_classes(); ?> <?php echo of_get_option( 'site_layout' ); ?>">
 
