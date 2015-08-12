@@ -34,13 +34,36 @@
 }
 
 .feature-hover {
-	position: absolute;
-	z-index: 2;
-	top: 8%;
-	height: 80%;
-	width: 80%;
-	text-align: left;
-	background: rgba(40, 41, 45, 0.6);
+	display: none;
+    position: absolute;
+    z-index: 2;
+    top: 3%;
+    height: 94%;
+    width: 96.8%;
+    text-align: left;
+    background: rgba(40, 41, 45, 0.8);
+}
+
+@media only screen and ( max-width: 1024px ) {
+	.feature-hover {
+	    position: absolute;
+	    z-index: 2;
+	    top: 3.3%;
+	    height: 93%;
+	    width: 96%;
+	    text-align: left;
+	}
+}
+
+@media only screen and ( max-width: 768px ) {
+	.feature-hover {
+	    position: absolute;
+	    z-index: 2;
+	    top: 4.7%;
+	    height: 91%;
+	    width: 94.6%;
+	    text-align: left;
+	}
 }
 
 .feature-hover h1 {
@@ -57,6 +80,168 @@
 	display: block;
 	color: #fff;
 	font-size: 15px;
+}
+
+@media only screen and ( max-width: 991px ) {
+	.feature-hover {
+	    position: absolute;
+	    z-index: 2;
+	    top: 4.7%;
+	    height: 91%;
+	    width: 94.6%;
+	    text-align: left;
+	}
+
+	.feature-hover h1 {
+		padding: 10px 10px 0px 10px;
+		font-size: 25px;
+		display: block;
+		color: #fff;
+		text-align: left;
+		font-weight: 400;
+	}
+
+	.feature-hover p {
+		padding: 5px 10px;
+		display: block;
+		color: #fff;
+		font-size: 13px;
+	}
+}
+
+@media only screen and ( max-width: 766px ) {
+	.feature-hover {
+	    position: absolute;
+	    z-index: 2;
+	    top: 2.4%;
+	    height: 95.4%;
+	    width: 97.5%;
+	    text-align: left;
+	}
+
+	.feature-hover h1 {
+		padding: 40px 0px 20px 50px;
+		font-size: 25px;
+		display: block;
+		color: #fff;
+		text-align: left;
+		font-weight: 400;
+	}
+
+	.feature-hover p {
+		padding: 20px 0px 10px 50px;
+		display: block;
+		color: #fff;
+		font-size: 16px;
+	}
+}
+
+@media only screen and ( max-width: 640px ) {
+	.feature-hover {
+	    position: absolute;
+	    z-index: 2;
+	    top: 2.8%;
+	    height: 95%;
+	    width: 97%;
+	    text-align: left;
+	}
+
+	.feature-hover h1 {
+		padding: 10px 0px 10px 20px;
+		font-size: 25px;
+		display: block;
+		color: #fff;
+		text-align: left;
+		font-weight: 400;
+	}
+
+	.feature-hover p {
+		padding: 10px 10px 5px 20px;
+		display: block;
+		color: #fff;
+		font-size: 16px;
+	}
+}
+
+@media only screen and ( max-width: 540px ) {
+	.feature-hover {
+	    position: absolute;
+	    z-index: 2;
+	    top: 2.8%;
+	    height: 95%;
+	    width: 97%;
+	    text-align: left;
+	}
+
+	.feature-hover h1 {
+		padding: 10px 0px 10px 20px;
+		font-size: 25px;
+		display: block;
+		color: #fff;
+		text-align: left;
+		font-weight: 400;
+	}
+
+	.feature-hover p {
+		padding: 10px 10px 5px 20px;
+		display: block;
+		color: #fff;
+		font-size: 13px;
+	}
+}
+
+@media only screen and ( max-width: 480px ) {
+	.feature-hover {
+	    position: absolute;
+	    z-index: 2;
+	    top: 2.8%;
+	    height: 93.2%;
+	    width: 96%;
+	    text-align: left;
+	}
+
+	.feature-hover h1 {
+		padding: 10px 0px 10px 10px;
+		font-size: 25px;
+		display: block;
+		color: #fff;
+		text-align: left;
+		font-weight: 400;
+	}
+
+	.feature-hover p {
+		padding: 5px 10px 5px 10px;
+		display: block;
+		color: #fff;
+		font-size: 13px;
+	}
+}
+
+@media only screen and ( max-width: 400px ) {
+	.feature-hover {
+	    position: absolute;
+	    z-index: 2;
+	    top: 3.9%;
+	    height: 91.8%;
+	    width: 95%;
+	    text-align: left;
+	}
+
+	.feature-hover h1 {
+		padding: 10px 0px 10px 10px;
+		font-size: 25px;
+		display: block;
+		color: #fff;
+		text-align: left;
+		font-weight: 400;
+	}
+
+	.feature-hover p {
+		padding: 5px 10px 5px 10px;
+		display: block;
+		color: #fff;
+		font-size: 13px;
+	}
 }
 
 /*===================================
