@@ -30,8 +30,9 @@ $portfolio = new WP_Query( $args ) ?>
 
 						<p><?php the_field( 'description' ) ?></p>
 
-						<i><p><?php the_field( 'testimonial' ) ?></p></i>
-
+						<div class="testimonial-para">
+							<i><p><?php the_field( 'testimonial' ) ?></p></i>
+						</div>
 					</a>
 
 				</div>
