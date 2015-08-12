@@ -60,6 +60,11 @@
 	.testimonial-para {
 		display: none;
 	}
+
+	.portfolio-content {
+		position: relative;
+		padding: 16px;
+	}
 }
 
 @media only screen and ( max-width: 1024px ) {
@@ -124,6 +129,11 @@
 		display: block;
 		color: #fff;
 		font-size: 13px;
+	}
+
+	.portfolio-content {
+		position: relative;
+		padding: 16px;
 	}
 }
 
